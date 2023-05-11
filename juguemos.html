@@ -1,0 +1,64 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Archivos/logo.png">
+    <title>Proyecto-Final</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">
+            <svg width="170px" height="80px">
+                <rect x="60" y="5" width="50px" height="30px" fill="rgb(78, 82, 122)" stroke-width="5"
+                    stroke="rgb(219, 222, 202)" rx="5" id="svg1">
+                </rect>
+                <polygon points="64 47, 110 47, 120 67, 47 67" fill="rgb(78, 82, 122)" stroke-width="5"
+                    stroke="rgb(219, 222, 202)" id="svg2">
+                </polygon>
+
+            </svg>
+        </a>
+
+        <ul class="menu">
+            <li class="menu"><a class="link" href="./historia.html">HISTORIA</a></li>
+            <li class="menu"><a class="link" href="./juguemos.html">JUGUEMOS</a></li>
+
+        </ul>
+    </nav>
+    <header>
+        <h1 class="titulo">JUGUEMOS UN POCO</h1>
+    </header>
+
+    <main>
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+
+        <section class="flex-container">
+            <div class="boxes">
+                <div class="box" id="0" ondrop="drop(event)" ondragover="preventDefault(event)">
+                </div>
+                <div class="box" id="1" ondrop="drop(event)" ondragover="preventDefault(event)">
+                </div>
+                <div class="box" id="2" ondrop="drop(event)" ondragover="preventDefault(event)">
+                </div>
+            </div>
+            <div id="container-imagenes">
+                <img draggable="true" ondragstart="drag(event)" id="imagen-1" src="./Archivos/Foto1.png" alt="" />
+                <img draggable="true" ondragstart="drag(event)" id="imagen-2" src="./Archivos/Foto2.png" alt="" />
+                <img draggable="true" ondragstart="drag(event)" id="imagen-3" src="./Archivos/Foto3.png" alt="" />
+            </div>
+        </section>
+
+        <div><button id="reinicio" onclick="reinicio()" class="botonesVideo reinicio">Reiniciar</button></div>
+
+    </main>
+
+
+
+</html>
+<script src="./scriptjuego.js"></script>
+</body>
+
+</html>

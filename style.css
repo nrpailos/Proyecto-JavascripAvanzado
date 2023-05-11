@@ -1,0 +1,312 @@
+body {
+    background-color: rgb(4, 4, 52);
+    font-family: sans-serif;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 300px;
+
+
+}
+
+.link {
+    width: 70%;
+    height: 35px;
+    font-weight: 350px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(228, 228, 189);
+    border-radius: 7px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 3px 3px grey;
+
+}
+
+.link:active {
+    box-shadow: 3px 3px black;
+}
+
+
+/* Animacion Svg */
+
+#svg1 {
+    animation: svg1-animation 3s;
+}
+
+@keyframes svg1-animation {
+    0% {
+        transform: translate(0, -5px);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    75% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+#svg2 {
+    animation: svg2-animation 3s;
+}
+
+@keyframes svg2-animation {
+    0% {
+        transform: translate(0, -5px);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    75% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+header {
+    width: 100%;
+    height: 70%;
+    background: url(./Archivos/closeup-computer-display-software-developer-typing-database-functions-script-it-startup-agency-display-concept-programer-writing-source-code-scrolling-text-programming-language_48225.avif) 50% fixed;
+
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding: 10%;
+    font-size: 50px;
+    text-shadow: 2px 2px grey, 5px 5px black;
+}
+
+
+/*  Container   */
+
+
+.container-opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.contenido {
+    color: rgb(103, 127, 103);
+    text-align: center;
+    font-size: 45px;
+}
+
+.opciones {
+    background-color: rgb(228, 228, 189);
+    border: 5px solid rgb(122, 153, 141);
+    display: inline-block;
+    margin: 10%;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+}
+
+.p1 {
+    color: black;
+    font-size: 17px;
+}
+
+.img-index {
+    width: 100%;
+    background-size: cover;
+}
+
+.button {
+    background-color: rgb(4, 4, 52);
+    color: rgb(228, 228, 189);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px grey;
+}
+
+.button:active {
+    box-shadow: 3px 3px black;
+}
+
+/* Footer */
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(122, 153, 141);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 2%;
+}
+
+.texto-footer {
+    width: 170px;
+    margin: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* -----------------HISTORIA ------------*/
+
+.parent {
+    width: 80%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5%;
+
+}
+
+.parent,
+h1 {
+    color: rgb(103, 127, 103);
+    justify-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+.parent,
+p {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+/*-----Video-----*/
+
+.container-video {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 5%;
+}
+
+.barra {
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+#play,
+#pausa {
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px rgb(103, 127, 103);
+    margin: 7px;
+}
+
+#duracion {
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+
+/*---- Juego-----*/
+
+h2 {
+    color: rgb(103, 127, 103);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    width: 270px;
+    height: 370px;
+    background-color: grey;
+    border: 2px solid black;
+    margin-bottom: 10px;
+
+}
+
+
+
+.box:hover {
+    background-color: rgb(33, 32, 32);
+}
+
+#container-imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+
+#imagen-1,
+#imagen-2,
+#imagen-3 {
+    width: 270px;
+    height: 370px;
+    background-color: beige;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#reinicio {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    color: black;
+    background-color: rgb(228, 228, 189);
+    border-radius: 7px;
+    text-align: center;
+    justify-items: center;
+    box-shadow: 3px 3px grey;
+}
