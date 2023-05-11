@@ -301,12 +301,14 @@ h2 {
 #reinicio {
     display: flex;
     justify-content: center;
-    width: 100px;
+    justify-items: center;
+    width: 200px;
     height: 35px;
     color: black;
     background-color: rgb(228, 228, 189);
     border-radius: 7px;
     text-align: center;
-    justify-items: center;
     box-shadow: 3px 3px grey;
+    margin: 50px;
+    margin-left: 45%;
 }
